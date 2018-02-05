@@ -223,7 +223,11 @@ Blockly.Msg.HINT_USER_EMAIL = "This is voluntary! However, some functions of the
 Blockly.Msg.HINT_USER_NAME = "Enter your real name here if you like. This is just for you, no one else will see it.";
 Blockly.Msg.HINT_USER_PASSWORT = "12345 is no secure password. Rather think of a safe combination of numbers and letters that you will not forget.";
 Blockly.Msg.HINT_USER_PASSWORT_CONFIRM = "Got it? Better make sure!";
+<<<<<<< HEAD
 Blockly.Msg.HUMIDITY_TOOLTIP = "Represents a humidity sensor.";
+=======
+Blockly.Msg.HUMIDITY = "humidity";
+>>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 Blockly.Msg.IF_TOOLTIP = "Checks the condition in »if«. If the condition is true, executes the »do« action.";
 Blockly.Msg.IMAGE_GET_TOOLTIP = "Returns the chosen image.";
 Blockly.Msg.IMAGE_GET_TOOLTIP_ANGRY = "angry";
@@ -284,6 +288,7 @@ Blockly.Msg.INTERNAL_PORT = "internal";
 Blockly.Msg.IRSEEKER_TOOLTIP = "Represents a HiTechnic NXT IRSeeker V2 sensor.";
 Blockly.Msg.JOYSTICK_GETSAMPLE_TOOLTIP = "Gets the current reading of one of the axises of the joystick";
 Blockly.Msg.KEY_ISPRESSED_TOOLTIP = "Is the selected button pressed?";
+<<<<<<< HEAD
 Blockly.Msg.KEY_TOOLTIP = "Represents a button.";
 Blockly.Msg.LANGUAGE_ARABIC = "Arabic";
 Blockly.Msg.LANGUAGE_BRAZILIAN = "Brazilian";
@@ -308,6 +313,9 @@ Blockly.Msg.LANGUAGE_SWEDISH = "Swedish";
 Blockly.Msg.LANGUAGE_TURKISH = "Turkish";
 Blockly.Msg.LCDI2C_TOOLTIP = "Represents an LCD I2C display.";
 Blockly.Msg.LCD_TOOLTIP = "Represents an LCD display.";
+=======
+Blockly.Msg.LCD = "LCD";
+>>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 Blockly.Msg.LED = "LED";
 Blockly.Msg.LED_OFF = "turn LED off";
 Blockly.Msg.LED_OFF_TOOLTIP = "Turns the LED off.";
@@ -649,8 +657,12 @@ Blockly.Msg.MODE_ROTATION = "rotation";
 Blockly.Msg.MODE_SOUND = "sound";
 Blockly.Msg.MODE_UNMODULATED = "unmodulated";
 Blockly.Msg.MODE_VALUE = "value";
+<<<<<<< HEAD
 Blockly.Msg.MOISTURE_TOOLTIP = "Represents a moisture sensor.";
 Blockly.Msg.MOTION_TOOLTIP = "Represents a motion sensor.";
+=======
+Blockly.Msg.MOTION_SENSOR = "motion sensor";
+>>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 Blockly.Msg.MOTOR = "motor";
 Blockly.Msg.MOTORDIFF_ON_FOR_TOOLTIP = "Starts the robot with specific speed and stops after specific distance.";
 Blockly.Msg.MOTORDIFF_ON_TOOLTIP = "Starts the robot with specific speed.";
@@ -1019,10 +1031,14 @@ Blockly.Msg.POPUP_TOUR = "take a tour";
 Blockly.Msg.POPUP_USERNAME = "Username";
 Blockly.Msg.POPUP_USERNAME_LOGOFF = "You are not logged in.";
 Blockly.Msg.POPUP_VALUE = "Value";
+<<<<<<< HEAD
 Blockly.Msg.PORT_BUMPER = "bumper";
 Blockly.Msg.PORT_HAND = "hand";
 Blockly.Msg.PORT_HEAD = "head";
 Blockly.Msg.POTENTIOMETER_TOOLTIP = "Represents a potentiometer .";
+=======
+Blockly.Msg.POTENTIOMETER = "potentiometer";
+>>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 Blockly.Msg.PROCEDURES_ALLOW_STATEMENTS = "allow statements";
 Blockly.Msg.PROCEDURES_BEFORE_PARAMS = "with:";
 Blockly.Msg.PROCEDURES_CALLNORETURN_HELPURL = "https://en.wikipedia.org/wiki/Procedure_%28computer_science%29";
@@ -1058,13 +1074,17 @@ Blockly.Msg.PROGLIST_LOAD_TOOLTIP = "Click here to load your robot configuration
 Blockly.Msg.PROGLIST_SHARE_TOOLTIP = "Click here to share your program with a friend.";
 Blockly.Msg.PROGLIST_SHARE_WITH_GALLERY = "Do you really want to share your program with everybody? If you are not sure please check the question and answers <a href='https://www.roberta-home.de/index.php?id=138&L=1' target='_blank'>here</a>.";
 Blockly.Msg.PROGLIST_SHARE_WITH_GALLERY_TOOLTIP = "Click here to upload your program to the gallery hence share it with all other users.";
+Blockly.Msg.PULSE = "pulse";
 Blockly.Msg.PULSE_HIGH = "pulse time HIGH";
 Blockly.Msg.PULSE_LOW = "pulse time LOW";
 Blockly.Msg.PULSE_TOOLTIP = "Represents a pulse sensor.";
 Blockly.Msg.RADIO_GET_RSSI_TOOLTIP = "Gets the RSSI of the last package.";
 Blockly.Msg.REDO = "Redo";
 Blockly.Msg.RELAY = "relay";
+<<<<<<< HEAD
 Blockly.Msg.RELAY_TOOLTIP = "Represents a relay.";
+=======
+>>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 Blockly.Msg.REMOVE_COMMENT = "Remove Comment";
 Blockly.Msg.RENAME_VARIABLE = "Rename variable...";
 Blockly.Msg.RENAME_VARIABLE_TITLE = "Rename all '%1' variables to:";
@@ -1136,9 +1156,12 @@ Blockly.Msg.SENSOR_KEY_UP = "up";
 Blockly.Msg.SENSOR_LIGHT = "light sensor";
 Blockly.Msg.SENSOR_MIC = "microphone";
 Blockly.Msg.SENSOR_MOISTURE = "moisture sensor";
+<<<<<<< HEAD
 Blockly.Msg.SENSOR_MOISTURE_GETSAMPLE_TOOLTIP = "Gets the current reading from the moisture sensor.";
 Blockly.Msg.SENSOR_MOTION = "motion sensor";
 Blockly.Msg.SENSOR_MOTION_GETSAMPLE_TOOLTIP = "Gets the current reading from the motion sensor.";
+=======
+>>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 Blockly.Msg.SENSOR_MS_TIMER = "in ms";
 Blockly.Msg.SENSOR_PIN = "pin";
 Blockly.Msg.SENSOR_PINTOUCH = "pin";
@@ -1177,7 +1200,10 @@ Blockly.Msg.SENSOR_UNIT_VOLT = "V";
 Blockly.Msg.SENSOR_VALUE = "value";
 Blockly.Msg.SERVER_NOT_AVAILABLE = "The Open Roberta Lab is currently not available. </br>Your internet connection was interrupted. If you currently have an EV3 connected via the USB cable solve this with a click on the programming environment.<br>If this problem persists please check your internet connection and try to reload this website. If you have this problem again, please don't hesitate to contact us via mail:</br>roberta-zentrale@iais.fraunhofer.de";
 Blockly.Msg.SERVO_MOTOR = "servo motor";
+<<<<<<< HEAD
 Blockly.Msg.SERVO_TOOLTIP = "Represents a servo motor.";
+=======
+>>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 Blockly.Msg.SET = "set";
 Blockly.Msg.SET_LED = "turn LED";
 Blockly.Msg.SIM_BLOCK_NOT_SUPPORTED = "Unfortunately you can not use this block in the simulation!";
@@ -1200,7 +1226,10 @@ Blockly.Msg.START_ACTIVITY_TOOLTIP = "Starts additional activity.";
 Blockly.Msg.START_PROGRAM = "start";
 Blockly.Msg.START_PROGRAM_DEBUG = "show sensor data";
 Blockly.Msg.START_TOOLTIP = "The starting point for the main program.";
+<<<<<<< HEAD
 Blockly.Msg.STEPMOTOR_TOOLTIP = "Represents a step motor.";
+=======
+>>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 Blockly.Msg.STEP_MOTOR = "step motor";
 Blockly.Msg.STRENGTH = "strength";
 Blockly.Msg.TAB_CONFIGURATION = "Robot configuration";
