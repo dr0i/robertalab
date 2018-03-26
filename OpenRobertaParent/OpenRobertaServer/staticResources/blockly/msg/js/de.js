@@ -192,9 +192,12 @@ Blockly.Msg.DUPLICATE_BLOCK = "Kopieren";
 Blockly.Msg.ENABLE_BLOCK = "Block aktivieren";
 Blockly.Msg.ENCODER_GETSAMPLE_TOOLTIP = "Gibt den aktuellen Wert des Drehsensors zurück.";
 Blockly.Msg.ENCODER_RESET_TOOLTIP = "Setzt den Drehsensor zurück.";
+<<<<<<< HEAD
 Blockly.Msg.ENCODER_TOOLTIP = "Block für den Drehsensor.";
 Blockly.Msg.ERROR_MISSING_PARAMETER = "Ein Eingabewert fehlt!";
 Blockly.Msg.ERROR_MISSING_RETURN = "Der Funktionsrückgabewert fehlt!";
+=======
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.EV3BRICK_TOOLTIP = "Block für den EV3 Stein mit den angeschlossenen Aktoren und Sensoren. Es gibt auch weitere eingebaute Aktoren und Sensoren, wie z. B. das Display, die Tasten ...";
 Blockly.Msg.EXPAND_ALL = "Alle Blöcke entfalten";
 Blockly.Msg.EXPAND_BLOCK = "Block entfalten";
@@ -224,10 +227,13 @@ Blockly.Msg.HINT_USER_NAME = "In diesem Feld kannst du deinen richtigen Namen ei
 Blockly.Msg.HINT_USER_PASSWORT = "12345 ist kein gutes Passwort ;-)! Such dir lieber eine sichere Kombination aus Zahlen und Buchstaben aus, die du gut behalten kannst! Es muss mindestens sechs Zeichen lang sein!";
 Blockly.Msg.HINT_USER_PASSWORT_CONFIRM = "Alles richtig geschrieben? Gib dein Passwort vorsichtshalber nochmal ein.";
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.HUMIDITY_TOOLTIP = "Block für den Luftfeuchtigkeitsensor.";
 =======
 Blockly.Msg.HUMIDITY = "Luftfeuchtigkeit";
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.IF_TOOLTIP = "Prüft die Bedingung in wenn. Falls die Bedingung wahr ist, führt die dann-Aktion aus.";
 Blockly.Msg.IMAGE_GET_TOOLTIP = "Gibt das ausgewählte Bild zurück.";
 Blockly.Msg.IMAGE_GET_TOOLTIP_ANGRY = "böse";
@@ -675,11 +681,14 @@ Blockly.Msg.MODE_SOUND = "Geräusch";
 Blockly.Msg.MODE_UNMODULATED = "Unmoduliert";
 Blockly.Msg.MODE_VALUE = "Wert";
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.MOISTURE_TOOLTIP = "Block für den Feuchtigkeitsensor.";
 Blockly.Msg.MOTION_TOOLTIP = "Block für den Bewegungssensor.";
 =======
 Blockly.Msg.MOTION_SENSOR = "Bewegungssensor";
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.MOTOR = "Motor";
 Blockly.Msg.MOTORDIFF_ON_FOR_TOOLTIP = "Startet den Roboter mit einer bestimmten Geschwindigkeit und stoppt nach einer bestimmten Strecke.";
 Blockly.Msg.MOTORDIFF_ON_TOOLTIP = "Startet den Roboter mit einer bestimmten Geschwindigkeit.";
@@ -944,10 +953,14 @@ Blockly.Msg.ORA_USER_TO_SHARE_SAME_AS_LOGIN_USER = "Du kannst Programme nicht mi
 Blockly.Msg.ORA_USER_UPDATE_SUCCESS = "Dein Passwort wurde erfolgreich geändert!";
 Blockly.Msg.ORDINAL_NUMBER_SUFFIX = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.OUTPUT = "Ausgang";
 =======
 Blockly.Msg.OUTPUT = "output";  // untranslated
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+Blockly.Msg.OUTPUT = "Ausgang";
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.PIN_GETSAMPLE_ANALOG_TOOLTIP = "Gibt den analogen Wert von dem angegeben Pin zurück. Der Wert ist zwischen 0 und 1023.";
 Blockly.Msg.PIN_GETSAMPLE_DIGITAL_TOOLTIP = "Gibt den digitalen Wert von dem angegebenen Pin zurück. Der Wert ist entweder HIGH »1« oder LOW »0«.";
 Blockly.Msg.PIN_GETSAMPLE_PULSEHIGH_TOOLTIP = "Gibt die Pulszeit HIGH an dem angegebenen Pin in Microsekunden oder -1 wenn die Zeit nicht gemessen werden konnte.";
@@ -1030,6 +1043,7 @@ Blockly.Msg.POPUP_USERNAME = "Benutzername";
 Blockly.Msg.POPUP_USERNAME_LOGOFF = "Du bist nicht angemeldet.";
 Blockly.Msg.POPUP_VALUE = "Wert";
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.PORT_BUMPER = "bumper";  // untranslated
 Blockly.Msg.PORT_HAND = "hand";  // untranslated
 Blockly.Msg.PORT_HEAD = "head";  // untranslated
@@ -1037,6 +1051,8 @@ Blockly.Msg.POTENTIOMETER_TOOLTIP = "Block für den Potentiometer.";
 =======
 Blockly.Msg.POTENTIOMETER = "Drehsensor";
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.PROCEDURES_ALLOW_STATEMENTS = "Aussagen erlauben";
 Blockly.Msg.PROCEDURES_BEFORE_PARAMS = "mit:";
 Blockly.Msg.PROCEDURES_CALLNORETURN_HELPURL = "https://de.wikipedia.org/wiki/Prozedur_%28Programmierung%29";
@@ -1072,18 +1088,21 @@ Blockly.Msg.PROGLIST_LOAD_TOOLTIP = "Klicke hier um dein Programm in die Program
 Blockly.Msg.PROGLIST_SHARE_TOOLTIP = "Klicke hier um dein Programm mit einem Freund zu teilen.";
 Blockly.Msg.PROGLIST_SHARE_WITH_GALLERY = "Möchtest du dein Programm wirklich in die Gallerie hochladen und mit allen anderen Benutzern teilen? Wenn du dir nicht sicher bist, schaue <a href='https://www.roberta-home.de/index.php?id=138' target='_blank'>hier</a> nochmal genau nach!";
 Blockly.Msg.PROGLIST_SHARE_WITH_GALLERY_TOOLTIP = "Klicke hier um dein Programm in der Galerie hochzuladen und es mit allen anderen Benutzern zu teilen.";
-Blockly.Msg.PULSE = "Puls";
 Blockly.Msg.PULSE_HIGH = "Pulszeit HIGH";
 Blockly.Msg.PULSE_LOW = "Pulszeit LOW";
 Blockly.Msg.PULSE_TOOLTIP = "Block für den Pulssensor.";
 Blockly.Msg.RADIO_GET_RSSI_TOOLTIP = "Gibt den RSSI Wert des zuletzt empfangenen Pakets zurück.";
 Blockly.Msg.REDO = "Wiederholen";
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.RELAY = "relay";  // untranslated
 Blockly.Msg.RELAY_TOOLTIP = "Block für die Relaikarte.";
 =======
 Blockly.Msg.RELAY = "Relaikarte";
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+Blockly.Msg.RELAY = "relay";  // untranslated
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.REMOVE_COMMENT = "Kommentar entfernen";
 Blockly.Msg.RENAME_VARIABLE = "Variable umbenennen...";
 Blockly.Msg.RENAME_VARIABLE_TITLE = "Alle \"%1\" Variablen umbenennen in:";
@@ -1108,12 +1127,16 @@ Blockly.Msg.SENSOR_CODE = "Binär-Code";
 Blockly.Msg.SENSOR_COLOUR = "Farbsensor";
 Blockly.Msg.SENSOR_COMPASS = "Kompasssensor";
 Blockly.Msg.SENSOR_COMPASS_EV3 = "HT Kompasssensor";
+<<<<<<< HEAD
 Blockly.Msg.SENSOR_DETECTFACE = "get last recognized face(s)";  // untranslated
 Blockly.Msg.SENSOR_DETECTFACE_GETSAMPLE_TOOLTIP = "Detect a face previously learned and saved.";  // untranslated
 Blockly.Msg.SENSOR_DETECTMARK = "get last detected NAO mark(s)";  // untranslated
 Blockly.Msg.SENSOR_DETECTMARK_GETSAMPLE_TOOLTIP = "Returns an array of IDs of last detected NAO marks. If no marks are detected, an array consisting of 1 element with value -1 is returned. For a list of NAO marks with corresponding numbers refer to the wiki.";  // untranslated
 Blockly.Msg.SENSOR_DROP = "Tropfensensor";
 Blockly.Msg.SENSOR_DROP_GETSAMPLE_TOOLTIP = "Gibt den aktuellen Wert des Tropfensensors zurück.";
+=======
+Blockly.Msg.SENSOR_DROP = "Tropfensensor";
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.SENSOR_ENCODER = "Drehsensor";
 Blockly.Msg.SENSOR_FLAME = "Flammensensor";
 Blockly.Msg.SENSOR_FSR = "fsr sensor";  // untranslated
@@ -1137,8 +1160,12 @@ Blockly.Msg.SENSOR_GET = "gib";
 Blockly.Msg.SENSOR_GET_SAMPLE = "gib Wert";
 Blockly.Msg.SENSOR_GROVE = "Grove";
 Blockly.Msg.SENSOR_GYRO = "Kreiselsensor";
+<<<<<<< HEAD
 Blockly.Msg.SENSOR_HUMIDITY = "Luftfeuchtigkeitsensor";
 Blockly.Msg.SENSOR_HUMIDITY_GETSAMPLE_TOOLTIP = "Gibt den aktuellen Wert des Luftfeuchtigkeitsensors zurück.";
+=======
+Blockly.Msg.SENSOR_HUMIDITY = "Luftfeuchtigkeit";
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.SENSOR_INFRARED = "Infrarotsensor";
 Blockly.Msg.SENSOR_IRSEEKER = "HT Infrarotsensor";
 Blockly.Msg.SENSOR_IRSEEKER_GETSAMPLE_TOOLTIP = "Gibt die Position einer Infrarot Signalleuchte.";
@@ -1159,25 +1186,38 @@ Blockly.Msg.SENSOR_LIGHT = "Lichtsensor";
 Blockly.Msg.SENSOR_MIC = "Mikrofon";
 Blockly.Msg.SENSOR_MOISTURE = "Feuchtigkeitsensor";
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.SENSOR_MOISTURE_GETSAMPLE_TOOLTIP = "Gibt den aktuellen Wert des Feuchtigkeitsensors zurück.";
 Blockly.Msg.SENSOR_MOTION = "Bewegungssensor";
 Blockly.Msg.SENSOR_MOTION_GETSAMPLE_TOOLTIP = "Gibt den aktuellen Wert des Bewegungssensors zurück.";
 =======
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+Blockly.Msg.SENSOR_MOTION = "Bewegungssensor";
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.SENSOR_MS_TIMER = "in ms";
 Blockly.Msg.SENSOR_PIN = "Pin";
 Blockly.Msg.SENSOR_PINTOUCH = "Pin";
 Blockly.Msg.SENSOR_PINTOUCH_BOB3 = "Arm";
 Blockly.Msg.SENSOR_POTENTIOMETER = "Potentiometer";
+<<<<<<< HEAD
 Blockly.Msg.SENSOR_POTENTIOMETER_GETSAMPLE_TOOLTIP = "Gibt den aktuellen Wert des Potentiometers.";
 Blockly.Msg.SENSOR_PRESSED = " (gedrückt)";
 Blockly.Msg.SENSOR_PULSE = "Pulssensor";
 Blockly.Msg.SENSOR_PULSE_GETSAMPLE_TOOLTIP = "Gibt den aktuellen Wert des Pulssensors zurück.";
+=======
+Blockly.Msg.SENSOR_PRESSED = " (gedrückt)";
+Blockly.Msg.SENSOR_PULSE = "Pulssensor";
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.SENSOR_RADIO_RSSI = "Radio RSSI Sensor";
 Blockly.Msg.SENSOR_RESET = "Setze";
 Blockly.Msg.SENSOR_RESET_II = "zurück";
 Blockly.Msg.SENSOR_RFID = "RFID Reader";
+<<<<<<< HEAD
 Blockly.Msg.SENSOR_RFID_GETSAMPLE_TOOLTIP = "Gibt den aktuellen Wert des RFID Readers zurück.";
+=======
+Blockly.Msg.SENSOR_ROTATION = "Drehsensor";
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.SENSOR_RSSI = "Empfangsstärke";
 Blockly.Msg.SENSOR_RSSI_VALUE_GETSAMPLE_TOOLTIP = "Gibt die Signalstärke der letzten Nachricht zurück.";
 Blockly.Msg.SENSOR_SONAR = "Ultraschallsensor";
@@ -1202,11 +1242,15 @@ Blockly.Msg.SENSOR_UNIT_VOLT = "V";  // untranslated
 Blockly.Msg.SENSOR_VALUE = "Wert";
 Blockly.Msg.SERVER_NOT_AVAILABLE = "Das Open Roberta Lab ist zur Zeit nicht erreichbar. </br>Die Internetverbindung wurde unterbrochen. Solltest du gerade einen EV3 mit dem USB-Kabel verbunden haben, genügt ein Klick auf die Programmieroberfläche.<br> Falls das Problem weiterhin besteht, überprüfe deine Internetverbindung und lade diese Webseite neu. Sollte das Problem erneut auftreten, schreibe bitte eine Mail an folgende Adresse:</br>roberta-zentrale@iais.fraunhofer.de";
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.SERVO_MOTOR = "servo motor";  // untranslated
 Blockly.Msg.SERVO_TOOLTIP = "Block für den Servomotor.";
 =======
 Blockly.Msg.SERVO_MOTOR = "Servomotor";
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+Blockly.Msg.SERVO_MOTOR = "servo motor";  // untranslated
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.SET = "Setze";
 Blockly.Msg.SETLANGUAGE = "Setze Sprache";
 Blockly.Msg.SETLANGUAGE_TOOLTIP = "Setzt die Sprache für den Sage Block.";
@@ -1236,11 +1280,15 @@ Blockly.Msg.START_PROGRAM = "Start";
 Blockly.Msg.START_PROGRAM_DEBUG = "zeige Sensordaten";
 Blockly.Msg.START_TOOLTIP = "Startblock für das Hauptprogramm.";
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.STEPMOTOR_TOOLTIP = "Block für den Schrittmotor.";
 Blockly.Msg.STEP_MOTOR = "step motor";  // untranslated
 =======
 Blockly.Msg.STEP_MOTOR = "Schrittmotor";
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+Blockly.Msg.STEP_MOTOR = "step motor";  // untranslated
+>>>>>>> #756 added configuration toolbox with all sensors and actors
 Blockly.Msg.STRENGTH = "Stärke";
 Blockly.Msg.TAB_CONFIGURATION = "Roboterkonfiguration";
 Blockly.Msg.TAB_PROGRAM = "Programm";
