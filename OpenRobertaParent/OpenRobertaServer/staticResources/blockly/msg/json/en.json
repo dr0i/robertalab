@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"lastupdated": "2018-04-23 09:35:21.008379",
 =======
 =======
@@ -117,6 +118,9 @@
 		"lastupdated": "2018-03-26 11:45:43.920427",
 >>>>>>> #756 added configuration toolbox with all sensors and actors
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+		"lastupdated": "2018-04-11 14:56:37.843909",
+>>>>>>> #844 implemented backend part for new sensor blocks
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
@@ -1500,7 +1504,6 @@
 =======
 	"SENSOR_MOISTURE": "moisture sensor",
 	"MODE_MOISTURE": "moisture",
-	"SENSOR_ROTATION": "rotation sensor",
 	"SENSOR_DROP": "drop sensor",
 	"SENSOR_RFID": "RFID reader",
 	"ACTION_LCD": "LCD",
@@ -1510,6 +1513,35 @@
 	"ACTION_RELAY": "relay",
 	"ACTION_RGBLED": "RGB LED",
 	"ACTION_STEPMOTOR": "step motor",
+<<<<<<< HEAD
 	"ACTION_SERVO": "servo motor"
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+	"ACTION_SERVO": "servo motor",
+	"MOISTURE_TOOLTIP": "Represents a moisture sensor.",
+	"POTENTIOMETER_TOOLTIP": "Represents a potentiometer .",
+	"TEMPERATURE_TOOLTIP": "Represents a temperature sensor.",
+	"HUMIDITY_TOOLTIP": "Represents a humidity sensor.",
+	"ENCODER_TOOLTIP": "Represents an encoder.",
+	"MOTION_TOOLTIP": "Represents a motion sensor.",
+	"PULSE_TOOLTIP": "Represents a pulse sensor.",
+	"DROP_TOOLTIP": "Represents a drop sensor.",
+	"RFID_TOOLTIP": "Represents an RFID reader.",
+	"KEY_TOOLTIP": "Represents a button.",
+	"LCD_TOOLTIP": "Represents an LCD display.",
+	"LCDI2C_TOOLTIP": "Represents an LCD I2C display.",
+	"PLAY_TOOLTIP": "Represents a buzzer.",
+	"RELAY_TOOLTIP": "Represents a relay.",
+	"RGBLED_TOOLTIP": "Represents an RGB LED.",
+	"LED_TOOLTIP": "Represents an LED.",
+	"STEPMOTOR_TOOLTIP": "Represents a step motor.",
+	"SERVO_TOOLTIP": "Represents a servo motor.",
+	"SENSOR_MOISTURE_GETSAMPLE_TOOLTIP": "Gets the current reading from the moisture sensor.",
+	"SENSOR_POTENTIOMETER_GETSAMPLE_TOOLTIP": "Gets the current reading from the potentiometer.",
+	"SENSOR_HUMIDITY_GETSAMPLE_TOOLTIP": "Gets the current reading from the humidity sensor.",
+	"SENSOR_MOTION_GETSAMPLE_TOOLTIP": "Gets the current reading from the motion sensor.",
+	"SENSOR_DROP_GETSAMPLE_TOOLTIP": "Gets the current reading from the drop sensor.",
+	"SENSOR_PULSE_GETSAMPLE_TOOLTIP": "Gets the current reading from the pulse sensor.",
+	"SENSOR_RFID_GETSAMPLE_TOOLTIP": "Gets the current reading from the RFID reader."
+>>>>>>> #844 implemented backend part for new sensor blocks
 }

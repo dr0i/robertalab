@@ -193,11 +193,15 @@ Blockly.Msg.ENABLE_BLOCK = "Aktivoi lohko";
 Blockly.Msg.ENCODER_GETSAMPLE_TOOLTIP = "Hae moottorienkooderin tämänhetkinen lukema.";
 Blockly.Msg.ENCODER_RESET_TOOLTIP = "Alusta moottorienkooderi.";
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.ENCODER_TOOLTIP = "Represents an encoder.";  // untranslated
 Blockly.Msg.ERROR_MISSING_PARAMETER = "An input value is missing!";  // untranslated
 Blockly.Msg.ERROR_MISSING_RETURN = "The function return value is missing!";  // untranslated
 =======
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+Blockly.Msg.ENCODER_TOOLTIP = "Represents an encoder.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.EV3BRICK_TOOLTIP = "EV3-yksikkö.";
 Blockly.Msg.EXPAND_ALL = "Laajenna lohkot";
 Blockly.Msg.EXPAND_BLOCK = "Laajenna lohko";
@@ -229,6 +233,9 @@ Blockly.Msg.HINT_USER_PASSWORT_CONFIRM = "Got it? Better make sure!";  // untran
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.HUMIDITY_TOOLTIP = "Represents a humidity sensor.";  // untranslated
 Blockly.Msg.IF_TOOLTIP = "Checks the condition in »if«. If the condition is true, executes the »do« action.";  // untranslated
 =======
@@ -304,9 +311,13 @@ Blockly.Msg.JOYSTICK_GETSAMPLE_TOOLTIP = "Gets the current reading of one of the
 Blockly.Msg.KEY_ISPRESSED_TOOLTIP = "Onko valittu nappi painettu?";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.KEY_TOOLTIP = "Represents a button.";  // untranslated
 =======
 >>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
+=======
+Blockly.Msg.KEY_TOOLTIP = "Represents a button.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.LANGUAGE_ARABIC = "Arabic";  // untranslated
 Blockly.Msg.LANGUAGE_BRAZILIAN = "Brazilian";  // untranslated
 Blockly.Msg.LANGUAGE_CHINESE = "Chinese";  // untranslated
@@ -329,6 +340,7 @@ Blockly.Msg.LANGUAGE_SPANISH = "Spanish";  // untranslated
 Blockly.Msg.LANGUAGE_SWEDISH = "Swedish";  // untranslated
 Blockly.Msg.LANGUAGE_TURKISH = "Turkish";  // untranslated
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.LCDI2C_TOOLTIP = "Represents an LCD I2C display.";  // untranslated
 Blockly.Msg.LCD_TOOLTIP = "Represents an LCD display.";  // untranslated
 =======
@@ -336,6 +348,10 @@ Blockly.Msg.LCD = "LCD";  // untranslated
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 =======
 >>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
+=======
+Blockly.Msg.LCDI2C_TOOLTIP = "Represents an LCD I2C display.";  // untranslated
+Blockly.Msg.LCD_TOOLTIP = "Represents an LCD display.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.LED = "LED";  // untranslated
 Blockly.Msg.LED_OFF = "LED pois päältä";
 Blockly.Msg.LED_OFF_TOOLTIP = "Turns the LED off.";  // untranslated
@@ -690,6 +706,7 @@ Blockly.Msg.MODE_UNMODULATED = "unmodulated";  // untranslated
 Blockly.Msg.MODE_VALUE = "value";  // untranslated
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.MOISTURE_TOOLTIP = "Represents a moisture sensor.";  // untranslated
 Blockly.Msg.MOTION_TOOLTIP = "Represents a motion sensor.";  // untranslated
 =======
@@ -697,6 +714,10 @@ Blockly.Msg.MOTION_SENSOR = "motion sensor";  // untranslated
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 =======
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+Blockly.Msg.MOISTURE_TOOLTIP = "Represents a moisture sensor.";  // untranslated
+Blockly.Msg.MOTION_TOOLTIP = "Represents a motion sensor.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.MOTOR = "moottori";
 Blockly.Msg.MOTORDIFF_ON_FOR_TOOLTIP = "Käynnistää robotin määritetyllä nopeudella ja pysäyttää sen määritetyn matkan jälkeen.";
 Blockly.Msg.MOTORDIFF_ON_TOOLTIP = "Käynnistää robotin määritetyllä nopeudella.";
@@ -1044,6 +1065,7 @@ Blockly.Msg.POPUP_USERNAME_LOGOFF = "Olet kirjautuneena sisään.";
 Blockly.Msg.POPUP_VALUE = "Arvo";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.PORT_BUMPER = "bumper";  // untranslated
 Blockly.Msg.PORT_HAND = "hand";  // untranslated
 Blockly.Msg.PORT_HEAD = "head";  // untranslated
@@ -1053,6 +1075,9 @@ Blockly.Msg.POTENTIOMETER = "potentiometer";  // untranslated
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
 =======
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+Blockly.Msg.POTENTIOMETER_TOOLTIP = "Represents a potentiometer .";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.PROCEDURES_ALLOW_STATEMENTS = "salli kommentit";
 Blockly.Msg.PROCEDURES_BEFORE_PARAMS = "parametrit:";
 Blockly.Msg.PROCEDURES_CALLNORETURN_HELPURL = "https://fi.wikipedia.org/wiki/Aliohjelma";
@@ -1095,9 +1120,13 @@ Blockly.Msg.RADIO_GET_RSSI_TOOLTIP = "Gets the RSSI of the last package.";  // u
 Blockly.Msg.REDO = "Tee uudelleen";
 Blockly.Msg.RELAY = "relay";  // untranslated
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.RELAY_TOOLTIP = "Represents a relay.";  // untranslated
 =======
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+Blockly.Msg.RELAY_TOOLTIP = "Represents a relay.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.REMOVE_COMMENT = "Poista kommentti";
 Blockly.Msg.RENAME_VARIABLE = "Nimeä uudelleen muuttuja...";
 Blockly.Msg.RENAME_VARIABLE_TITLE = "Nimeä uudelleen kaikki '%1' muuttujaa:";
@@ -1131,7 +1160,11 @@ Blockly.Msg.SENSOR_DROP = "drop sensor";  // untranslated
 Blockly.Msg.SENSOR_DROP_GETSAMPLE_TOOLTIP = "Gets the current reading from the drop sensor.";  // untranslated
 =======
 Blockly.Msg.SENSOR_DROP = "drop sensor";  // untranslated
+<<<<<<< HEAD
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+Blockly.Msg.SENSOR_DROP_GETSAMPLE_TOOLTIP = "Gets the current reading from the drop sensor.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.SENSOR_ENCODER = "enkooderi";
 Blockly.Msg.SENSOR_FLAME = "flame sensor";  // untranslated
 Blockly.Msg.SENSOR_FSR = "fsr sensor";  // untranslated
@@ -1157,9 +1190,13 @@ Blockly.Msg.SENSOR_GROVE = "Grove";  // untranslated
 Blockly.Msg.SENSOR_GYRO = "gyroskooppi";
 Blockly.Msg.SENSOR_HUMIDITY = "humidity sensor";  // untranslated
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.SENSOR_HUMIDITY_GETSAMPLE_TOOLTIP = "Gets the current reading from the humidity sensor.";  // untranslated
 =======
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+Blockly.Msg.SENSOR_HUMIDITY_GETSAMPLE_TOOLTIP = "Gets the current reading from the humidity sensor.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.SENSOR_INFRARED = "infrapunasensori";
 Blockly.Msg.SENSOR_IRSEEKER = "HT infrared sensor";  // untranslated
 Blockly.Msg.SENSOR_IRSEEKER_GETSAMPLE_TOOLTIP = "Gets the position of an infrared beacon.";  // untranslated
@@ -1181,6 +1218,7 @@ Blockly.Msg.SENSOR_MIC = "microphone";  // untranslated
 Blockly.Msg.SENSOR_MOISTURE = "moisture sensor";  // untranslated
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.SENSOR_MOISTURE_GETSAMPLE_TOOLTIP = "Gets the current reading from the moisture sensor.";  // untranslated
 Blockly.Msg.SENSOR_MOTION = "motion sensor";  // untranslated
 Blockly.Msg.SENSOR_MOTION_GETSAMPLE_TOOLTIP = "Gets the current reading from the motion sensor.";  // untranslated
@@ -1189,11 +1227,17 @@ Blockly.Msg.SENSOR_MOTION_GETSAMPLE_TOOLTIP = "Gets the current reading from the
 =======
 Blockly.Msg.SENSOR_MOTION = "motion sensor";  // untranslated
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+Blockly.Msg.SENSOR_MOISTURE_GETSAMPLE_TOOLTIP = "Gets the current reading from the moisture sensor.";  // untranslated
+Blockly.Msg.SENSOR_MOTION = "motion sensor";  // untranslated
+Blockly.Msg.SENSOR_MOTION_GETSAMPLE_TOOLTIP = "Gets the current reading from the motion sensor.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.SENSOR_MS_TIMER = "/ ms";
 Blockly.Msg.SENSOR_PIN = "pin";  // untranslated
 Blockly.Msg.SENSOR_PINTOUCH = "pin";  // untranslated
 Blockly.Msg.SENSOR_PINTOUCH_BOB3 = "arm";  // untranslated
 Blockly.Msg.SENSOR_POTENTIOMETER = "potentiometer";  // untranslated
+<<<<<<< HEAD
 <<<<<<< HEAD
 Blockly.Msg.SENSOR_POTENTIOMETER_GETSAMPLE_TOOLTIP = "Gets the current reading from the potentiometer.";  // untranslated
 Blockly.Msg.SENSOR_PRESSED = "(painettu)";
@@ -1203,15 +1247,25 @@ Blockly.Msg.SENSOR_PULSE_GETSAMPLE_TOOLTIP = "Gets the current reading from the 
 Blockly.Msg.SENSOR_PRESSED = "(painettu)";
 Blockly.Msg.SENSOR_PULSE = "pulse sensor";  // untranslated
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+Blockly.Msg.SENSOR_POTENTIOMETER_GETSAMPLE_TOOLTIP = "Gets the current reading from the potentiometer.";  // untranslated
+Blockly.Msg.SENSOR_PRESSED = "(painettu)";
+Blockly.Msg.SENSOR_PULSE = "pulse sensor";  // untranslated
+Blockly.Msg.SENSOR_PULSE_GETSAMPLE_TOOLTIP = "Gets the current reading from the pulse sensor.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.SENSOR_RADIO_RSSI = "radio RSSI sensor";  // untranslated
 Blockly.Msg.SENSOR_RESET = "alusta";
 Blockly.Msg.SENSOR_RESET_II = "";  // untranslated
 Blockly.Msg.SENSOR_RFID = "RFID reader";  // untranslated
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.SENSOR_RFID_GETSAMPLE_TOOLTIP = "Gets the current reading from the RFID reader.";  // untranslated
 =======
 Blockly.Msg.SENSOR_ROTATION = "rotation sensor";  // untranslated
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+Blockly.Msg.SENSOR_RFID_GETSAMPLE_TOOLTIP = "Gets the current reading from the RFID reader.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.SENSOR_RSSI = "signal strength";  // untranslated
 Blockly.Msg.SENSOR_RSSI_VALUE_GETSAMPLE_TOOLTIP = "Gets the signal strength from the last received message.";  // untranslated
 Blockly.Msg.SENSOR_SONAR = "sonar";  // untranslated
@@ -1237,9 +1291,13 @@ Blockly.Msg.SENSOR_VALUE = "value";  // untranslated
 Blockly.Msg.SERVER_NOT_AVAILABLE = "The Open Roberta Lab is currently not available. </br>Your internet connection was interrupted. If you currently have an EV3 connected via the USB cable solve this with a click on the programming environment.<br>If this problem persists please check your internet connection and try to reload this website. If you have this problem again, please don't hesitate to contact us via mail:</br>roberta-zentrale@iais.fraunhofer.de";  // untranslated
 Blockly.Msg.SERVO_MOTOR = "servo motor";  // untranslated
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.SERVO_TOOLTIP = "Represents a servo motor.";  // untranslated
 =======
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+Blockly.Msg.SERVO_TOOLTIP = "Represents a servo motor.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.SET = "aseta";
 Blockly.Msg.SETLANGUAGE = "set language";  // untranslated
 Blockly.Msg.SETLANGUAGE_TOOLTIP = "Set the language.";  // untranslated
@@ -1269,9 +1327,13 @@ Blockly.Msg.START_PROGRAM = "Ohjelman alku";
 Blockly.Msg.START_PROGRAM_DEBUG = "show sensor data";  // untranslated
 Blockly.Msg.START_TOOLTIP = "The starting point for the main program.";  // untranslated
 <<<<<<< HEAD
+<<<<<<< HEAD
 Blockly.Msg.STEPMOTOR_TOOLTIP = "Represents a step motor.";  // untranslated
 =======
 >>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
+=======
+Blockly.Msg.STEPMOTOR_TOOLTIP = "Represents a step motor.";  // untranslated
+>>>>>>> #844 implemented backend part for new sensor blocks
 Blockly.Msg.STEP_MOTOR = "step motor";  // untranslated
 Blockly.Msg.STRENGTH = "strength";  // untranslated
 Blockly.Msg.TAB_CONFIGURATION = "Robotin asetukset";

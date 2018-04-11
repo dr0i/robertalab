@@ -1296,6 +1296,7 @@
 	"STEP_MOTOR": "",
 	"SENSOR_MOISTURE": "",
 	"MODE_MOISTURE": "",
+<<<<<<< HEAD
 	"SENSOR_DROP": "",
 	"SENSOR_RFID": "",
 	"ACTION_LCD": "",
@@ -1380,6 +1381,8 @@
 	"SENSOR_MOISTURE": "",
 	"MODE_MOISTURE": "",
 	"SENSOR_ROTATION": "",
+=======
+>>>>>>> #844 implemented backend part for new sensor blocks
 	"SENSOR_DROP": "",
 	"SENSOR_RFID": "",
 	"ACTION_LCD": "",
@@ -1389,6 +1392,35 @@
 	"ACTION_RELAY": "",
 	"ACTION_RGBLED": "",
 	"ACTION_STEPMOTOR": "",
+<<<<<<< HEAD
 	"ACTION_SERVO": ""
 >>>>>>> #756 added configuration toolbox with all sensors and actors
+=======
+	"ACTION_SERVO": "",
+	"MOISTURE_TOOLTIP": "",
+	"POTENTIOMETER_TOOLTIP": "",
+	"TEMPERATURE_TOOLTIP": "",
+	"HUMIDITY_TOOLTIP": "",
+	"ENCODER_TOOLTIP": "",
+	"MOTION_TOOLTIP": "",
+	"PULSE_TOOLTIP": "",
+	"DROP_TOOLTIP": "",
+	"RFID_TOOLTIP": "",
+	"KEY_TOOLTIP": "",
+	"LCD_TOOLTIP": "",
+	"LCDI2C_TOOLTIP": "",
+	"PLAY_TOOLTIP": "",
+	"RELAY_TOOLTIP": "",
+	"RGBLED_TOOLTIP": "",
+	"LED_TOOLTIP": "",
+	"STEPMOTOR_TOOLTIP": "",
+	"SERVO_TOOLTIP": "",
+	"SENSOR_MOISTURE_GETSAMPLE_TOOLTIP": "",
+	"SENSOR_POTENTIOMETER_GETSAMPLE_TOOLTIP": "",
+	"SENSOR_HUMIDITY_GETSAMPLE_TOOLTIP": "",
+	"SENSOR_MOTION_GETSAMPLE_TOOLTIP": "",
+	"SENSOR_DROP_GETSAMPLE_TOOLTIP": "",
+	"SENSOR_PULSE_GETSAMPLE_TOOLTIP": "",
+	"SENSOR_RFID_GETSAMPLE_TOOLTIP": ""
+>>>>>>> #844 implemented backend part for new sensor blocks
 }
