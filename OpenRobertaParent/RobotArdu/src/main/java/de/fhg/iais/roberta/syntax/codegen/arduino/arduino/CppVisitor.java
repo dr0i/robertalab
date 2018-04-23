@@ -31,7 +31,6 @@ import de.fhg.iais.roberta.syntax.actors.arduino.mbot.LedOffAction;
 import de.fhg.iais.roberta.syntax.actors.arduino.mbot.LedOnAction;
 import de.fhg.iais.roberta.syntax.check.hardware.arduino.arduino.UsedHardwareCollectorVisitor;
 import de.fhg.iais.roberta.syntax.codegen.arduino.ArduinoVisitor;
-import de.fhg.iais.roberta.syntax.expressions.arduino.RgbColor;
 import de.fhg.iais.roberta.syntax.lang.blocksequence.MainTask;
 import de.fhg.iais.roberta.syntax.sensor.generic.BrickSensor;
 import de.fhg.iais.roberta.syntax.sensor.generic.ColorSensor;
@@ -466,11 +465,4 @@ public class CppVisitor extends ArduinoVisitor implements ArduinoAstVisitor<Void
         // TODO Auto-generated method stub
         return null;
     }
-
-    @Override
-    public Void visitRgbColor(RgbColor<Void> rgbColor) {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
 }

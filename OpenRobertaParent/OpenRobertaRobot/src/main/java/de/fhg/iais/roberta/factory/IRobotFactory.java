@@ -40,13 +40,10 @@ import de.fhg.iais.roberta.inter.mode.sensor.IMoistureSensorMode;
 import de.fhg.iais.roberta.inter.mode.sensor.IMotionSensorMode;
 import de.fhg.iais.roberta.inter.mode.sensor.IMotorTachoMode;
 import de.fhg.iais.roberta.inter.mode.sensor.IPinValue;
-<<<<<<< HEAD
-import de.fhg.iais.roberta.inter.mode.sensor.IRSeekerSensorMode;
-import de.fhg.iais.roberta.inter.mode.sensor.ISensorMode;
-=======
 import de.fhg.iais.roberta.inter.mode.sensor.IPulseSensorMode;
+import de.fhg.iais.roberta.inter.mode.sensor.IRSeekerSensorMode;
 import de.fhg.iais.roberta.inter.mode.sensor.IRfidSensorMode;
->>>>>>> #844 implemented backend part for new sensor blocks
+import de.fhg.iais.roberta.inter.mode.sensor.ISensorMode;
 import de.fhg.iais.roberta.inter.mode.sensor.ISensorPort;
 import de.fhg.iais.roberta.inter.mode.sensor.ISlot;
 import de.fhg.iais.roberta.inter.mode.sensor.ISoundSensorMode;
@@ -78,12 +75,7 @@ import de.fhg.iais.roberta.mode.sensor.CompassSensorMode;
 import de.fhg.iais.roberta.mode.sensor.DropSensorMode;
 import de.fhg.iais.roberta.mode.sensor.GestureSensorMode;
 import de.fhg.iais.roberta.mode.sensor.GyroSensorMode;
-<<<<<<< HEAD
-=======
 import de.fhg.iais.roberta.mode.sensor.HumiditySensorMode;
-import de.fhg.iais.roberta.mode.sensor.IBirckKeyPressMode;
-import de.fhg.iais.roberta.mode.sensor.IRSeekerSensorMode;
->>>>>>> #844 implemented backend part for new sensor blocks
 import de.fhg.iais.roberta.mode.sensor.InfraredSensorMode;
 import de.fhg.iais.roberta.mode.sensor.LightSensorMode;
 import de.fhg.iais.roberta.mode.sensor.MoistureSensorMode;

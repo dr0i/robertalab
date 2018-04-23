@@ -193,6 +193,12 @@ public abstract class RobotUsedHardwareCollectorVisitor extends CheckVisitor imp
     }
 
     @Override
+    public Void visitCompassSensor(CompassSensor<Void> compassSensor) {
+        this.usedSensors.add(new UsedSensor((ISensorPort) compassSensor.getPort(), SensorType.COMPASS, compassSensor.getMode()));
+        return null;
+    }
+
+    @Override
     public Void visitMotionSensor(MotionSensor<Void> motionSensor) {
         this.usedSensors.add(new UsedSensor((ISensorPort) motionSensor.getPort(), SensorType.MOTION, motionSensor.getMode()));
         return null;
@@ -205,6 +211,12 @@ public abstract class RobotUsedHardwareCollectorVisitor extends CheckVisitor imp
     }
 
     @Override
+    public Void visitAccelerometer(AccelerometerSensor<Void> accelerometerSensor) {
+        this.usedSensors.add(new UsedSensor((ISensorPort) accelerometerSensor.getPort(), SensorType.ACCELEROMETER, accelerometerSensor.getMode()));
+        return null;
+    }
+
+    @Override
     public Void visitPulseSensor(PulseSensor<Void> pulseSensor) {
         this.usedSensors.add(new UsedSensor((ISensorPort) pulseSensor.getPort(), SensorType.PULSE, pulseSensor.getMode()));
         return null;
@@ -213,18 +225,6 @@ public abstract class RobotUsedHardwareCollectorVisitor extends CheckVisitor imp
     @Override
     public Void visitRfidSensor(RfidSensor<Void> rfidSensor) {
         this.usedSensors.add(new UsedSensor((ISensorPort) rfidSensor.getPort(), SensorType.RFID, rfidSensor.getMode()));
-        return null;
-    }
-
-    @Override
-    public Void visitCompassSensor(CompassSensor<Void> compassSensor) {
-        this.usedSensors.add(new UsedSensor((ISensorPort) compassSensor.getPort(), SensorType.COMPASS, compassSensor.getMode()));
-        return null;
-    }
-
-    @Override
-    public Void visitAccelerometer(AccelerometerSensor<Void> accelerometerSensor) {
-        this.usedSensors.add(new UsedSensor((ISensorPort) accelerometerSensor.getPort(), SensorType.ACCELEROMETER, accelerometerSensor.getMode()));
         return null;
     }
 

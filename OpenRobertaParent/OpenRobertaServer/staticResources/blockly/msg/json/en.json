@@ -1,126 +1,7 @@
 {
 	"@metadata": {
 		"author": "Ellen Spertus <ellen.spertus@gmail.com>",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-		"lastupdated": "2018-04-23 09:35:21.008379",
-=======
-=======
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-=======
->>>>>>> #756 implmented Arduino Configuration
-=======
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-=======
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-=======
->>>>>>> #755 added test names for the sensor blocks in program
-=======
->>>>>>> #756 added configuration toolbox with all sensors and actors
-<<<<<<< HEAD
-		"lastupdated": "2018-04-03 12:19:42.464103",
-=======
-=======
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-=======
->>>>>>> #756 implmented Arduino Configuration
-=======
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-=======
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-=======
->>>>>>> #755 added test names for the sensor blocks in program
-<<<<<<< HEAD
-		"lastupdated": "2018-03-21 16:54:50.204886",
-=======
-=======
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-=======
->>>>>>> #756 implmented Arduino Configuration
-=======
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-=======
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-<<<<<<< HEAD
-		"lastupdated": "2018-03-14 17:18:07.865391",
-=======
-		"lastupdated": "2018-02-07 16:55:31.254062",
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-=======
-=======
-=======
-=======
-		"lastupdated": "2018-02-16 13:54:35.119105",
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-<<<<<<< HEAD
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-<<<<<<< HEAD
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-<<<<<<< HEAD
->>>>>>> #745 chanhed arduino configuration blokcs so they would be always enabled
-=======
-=======
-=======
-=======
-		"lastupdated": "2018-02-21 12:28:51.856000",
->>>>>>> #756 implmented Arduino Configuration
-<<<<<<< HEAD
->>>>>>> #756 implmented Arduino Configuration
-<<<<<<< HEAD
->>>>>>> #756 implmented Arduino Configuration
-<<<<<<< HEAD
->>>>>>> #756 implmented Arduino Configuration
-=======
-=======
-=======
-=======
-		"lastupdated": "2018-02-28 14:24:11.875979",
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-=======
-=======
-=======
-=======
-		"lastupdated": "2018-03-01 17:37:58.578657",
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-<<<<<<< HEAD
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-<<<<<<< HEAD
->>>>>>> #755, #756 implemented moisture sensor, added test code generation for moisture, ultrasonic and light sensors
-=======
-=======
-=======
-		"lastupdated": "2018-03-16 13:07:19.406505",
->>>>>>> #755 added test names for the sensor blocks in program
->>>>>>> #755 added test names for the sensor blocks in program
-<<<<<<< HEAD
->>>>>>> #755 added test names for the sensor blocks in program
-=======
-=======
-		"lastupdated": "2018-03-26 11:45:43.920427",
->>>>>>> #756 added configuration toolbox with all sensors and actors
->>>>>>> #756 added configuration toolbox with all sensors and actors
-=======
-		"lastupdated": "2018-04-11 14:56:37.843909",
->>>>>>> #844 implemented backend part for new sensor blocks
+		"lastupdated": "2018-04-23 14:21:55.372524",
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
@@ -1120,7 +1001,6 @@
 	"NAO_FORGETFACEOF": "forget face of",
 	"NAO_PERFORM": "perform",
 	"NAO_MOVE": "move",
-	"NAO_CURRENT": "electric current of",
 	"NAO_POSTURE_STAND": "Stand",
 	"NAO_POSTURE_STANDINIT": "StandInit",
 	"NAO_POSTURE_STANDZERO": "StandZero",
@@ -1240,7 +1120,6 @@
 	"NAO_RECOGNIZEDWORD_TOOLTIP": "Returns the last word the robot recognized.",
 	"NAO_LEARNFACE_TOOLTIP": "Learn and save a face under a given name in the vision recognition database on the robot.",
 	"NAO_FORGETFACE_TOOLTIP": "Delete a face previously saved under a given name from the vision recognition database on the robot. ",
-	"NAO_GETCURRENT_TOOLTIP": "Get the electric current from the motorboard in the selected joint.",
 	"MENU_CODE_DOWNLOAD_TOOLTIP": "Download the source code of your program on the computer",
 	"MENU_CODE_REFRESH_TOOLTIP": "Refresh the source code, if you have changed the NEPO Blocks.",
 	"MENU_SIM_WRO": "World Robot Olympiad scene",
@@ -1400,14 +1279,10 @@
 	"SENSOR_GESTURE_SHAKE_GETSAMPLE_TOOLTIP": "Returns »true« if it is shaken.",
 	"SENSOR_GESTURE_FREEFALL_GETSAMPLE_TOOLTIP": "Returns »true« if it is free falling.",
 	"RIGHT": "right",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 	"LEFT": "left",
 	"ORA_ROBOT_PUSH_RUN_CALLIOPE2016": "Your program »$« is downloaded to Calliope, press the reset button to start it!",
 	"ORA_ROBOT_PUSH_RUN_NXT": "Your program »$« is downloaded to the NXT, start it on the robot!",
 	"ERROR_MISSING_PARAMETER": "An input value is missing!",
-<<<<<<< HEAD
 	"ERROR_MISSING_RETURN": "The function return value is missing!",
 	"OUTPUT": "output",
 	"INPUT": "input",
@@ -1464,84 +1339,23 @@
 	"SENSOR_DETECTFACE": "get last recognized face(s)",
 	"SENSOR_DETECTFACE_GETSAMPLE_TOOLTIP": "Detect a face previously learned and saved.",
 	"SENSOR_DETECTMARK": "get last detected NAO mark(s)",
-	"SENSOR_DETECTMARK_GETSAMPLE_TOOLTIP": "Returns an array of IDs of last detected NAO marks. If no marks are detected, an array consisting of 1 element with value -1 is returned. For a list of NAO marks with corresponding numbers refer to the wiki."
-=======
-	"ERROR_MISSING_RETURN": "The function return value is missing!"
-=======
-	"LEFT": "left"
->>>>>>> #745 added base Uno files, configuration draft
-<<<<<<< HEAD
->>>>>>> #745 added base Uno files, configuration draft
-=======
-=======
-=======
->>>>>>> #756 added configuration toolbox with all sensors and actors
-	"LEFT": "left",
-	"ORA_ROBOT_PUSH_RUN_CALLIOPE2016": "Your program »$« is downloaded to Calliope, press the reset button to start it!",
-	"ORA_ROBOT_PUSH_RUN_NXT": "Your program »$« is downloaded to the NXT, start it on the robot!",
-	"OUTPUT": "output",
-	"INPUT": "input",
-	"SENSOR_MOTION": "motion sensor",
-	"SENSOR_POTENTIOMETER": "potentiometer",
-	"SERVO_MOTOR": "servo motor",
-	"SENSOR_PULSE": "pulse sensor",
-	"RELAY": "relay",
-	"SENSOR_HUMIDITY": "humidity sensor",
-	"AND": "and",
-	"STEP_MOTOR": "step motor",
-<<<<<<< HEAD
-<<<<<<< HEAD
-	"SENSOR_MOISTURE": "moisture sensor"
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-<<<<<<< HEAD
->>>>>>> #756 added base Uno files, main configuration block, most of the sensor/actor configuration blocks
-=======
-=======
-	"SENSOR_MOISTURE": "moisture sensor",
-	"MODE_MOISTURE": "moisture"
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
->>>>>>> #756 added hardware visitor that extracts information about used configuration blocks
-=======
-	"SENSOR_MOISTURE": "moisture sensor",
-	"MODE_MOISTURE": "moisture",
-	"SENSOR_DROP": "drop sensor",
-	"SENSOR_RFID": "RFID reader",
-	"ACTION_LCD": "LCD",
-	"ACTION_LCDI2C": "LCD",
-	"ACTION_LED": "LED",
-	"ACTION_PLAY": "play",
-	"ACTION_RELAY": "relay",
-	"ACTION_RGBLED": "RGB LED",
-	"ACTION_STEPMOTOR": "step motor",
-<<<<<<< HEAD
-	"ACTION_SERVO": "servo motor"
->>>>>>> #756 added configuration toolbox with all sensors and actors
-=======
-	"ACTION_SERVO": "servo motor",
-	"MOISTURE_TOOLTIP": "Represents a moisture sensor.",
-	"POTENTIOMETER_TOOLTIP": "Represents a potentiometer .",
-	"TEMPERATURE_TOOLTIP": "Represents a temperature sensor.",
-	"HUMIDITY_TOOLTIP": "Represents a humidity sensor.",
-	"ENCODER_TOOLTIP": "Represents an encoder.",
-	"MOTION_TOOLTIP": "Represents a motion sensor.",
-	"PULSE_TOOLTIP": "Represents a pulse sensor.",
-	"DROP_TOOLTIP": "Represents a drop sensor.",
-	"RFID_TOOLTIP": "Represents an RFID reader.",
-	"KEY_TOOLTIP": "Represents a button.",
-	"LCD_TOOLTIP": "Represents an LCD display.",
-	"LCDI2C_TOOLTIP": "Represents an LCD I2C display.",
-	"PLAY_TOOLTIP": "Represents a buzzer.",
-	"RELAY_TOOLTIP": "Represents a relay.",
-	"RGBLED_TOOLTIP": "Represents an RGB LED.",
-	"LED_TOOLTIP": "Represents an LED.",
-	"STEPMOTOR_TOOLTIP": "Represents a step motor.",
-	"SERVO_TOOLTIP": "Represents a servo motor.",
-	"SENSOR_MOISTURE_GETSAMPLE_TOOLTIP": "Gets the current reading from the moisture sensor.",
-	"SENSOR_POTENTIOMETER_GETSAMPLE_TOOLTIP": "Gets the current reading from the potentiometer.",
-	"SENSOR_HUMIDITY_GETSAMPLE_TOOLTIP": "Gets the current reading from the humidity sensor.",
-	"SENSOR_MOTION_GETSAMPLE_TOOLTIP": "Gets the current reading from the motion sensor.",
-	"SENSOR_DROP_GETSAMPLE_TOOLTIP": "Gets the current reading from the drop sensor.",
-	"SENSOR_PULSE_GETSAMPLE_TOOLTIP": "Gets the current reading from the pulse sensor.",
-	"SENSOR_RFID_GETSAMPLE_TOOLTIP": "Gets the current reading from the RFID reader."
->>>>>>> #844 implemented backend part for new sensor blocks
+	"SENSOR_DETECTMARK_GETSAMPLE_TOOLTIP": "Returns an array of IDs of last detected NAO marks. If no marks are detected, an array consisting of 1 element with value -1 is returned. For a list of NAO marks with corresponding numbers refer to the wiki.",
+	"SENSOR_ELECTRICCURRENT": "electric current of",
+	"SENSOR_ELECTRICCURRENT_GETSAMPLE_TOOLTIP": "Get the electric current from the motorboard in the selected joint.",
+	"SLOT_YAW": "yaw",
+	"SLOT_PITCH": "pitch",
+	"PORT_SHOULDER": "schoulder",
+	"PORT_ELBOW": "elbow",
+	"PORT_WRIST": "wrist",
+	"PORT_HIP": "hip",
+	"PORT_KNEE": "knee",
+	"PORT_ANKLE": "ankle",
+	"SLOT_LEFT_PITCH": "left pitch",
+	"SLOT_LEFT_ROLL": "left roll",
+	"SLOT_LEFT_YAW": "left yaw",
+	"SLOT_LEFT_YAW_PITCH": "left yaw pitch",
+	"SLOT_RIGHT_PITCH": "right pitch",
+	"SLOT_RIGHT_ROLL": "right roll",
+	"SLOT_RIGHT_YAW": "right yaw",
+	"SLOT_RIGHT_YAW_PITCH": "right yaw pitch"
 }
